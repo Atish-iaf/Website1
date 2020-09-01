@@ -1,0 +1,50 @@
+html, body{
+	height: 100%;
+}
+
+	body{
+		margin: 5px;
+		padding: 50px;
+		background:	#64ABDE;
+		font-family:'Roboto' ;
+		font-size: 10pt; 
+	}
+	h1,h2,h3{
+		margin: 0;
+		padding: 0;
+		color: #404040;
+	}
+	p,ol,ul{
+		margin-top: 0;
+	}
+	p{
+		line-height: 180%;
+	}
+	ol, ul{
+		padding: 0;
+		list-style: none;
+	}
+	.container{
+		margin: 0px auto;
+		width: 1200px;
+	}
+	header{
+		overflow: hidden;
+	}
+	#top-header{
+		text-align: center;
+		height: 60px;
+	}
+	#logo{
+		padding: none;
+		width: 70%;
+		float: left;
+		height: 100px;
+		margin: none;
+	}
+	#logo img{
+		width: 90%;
+		float: left;
+		padding: 10px 0px;
+	}
+	

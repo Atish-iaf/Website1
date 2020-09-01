@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <style>
+        body{
+            margin: 2px 2px;
+            font-family: 'Roboto', sans-serif;
+        }
+        header{
+            display: flex;
+            flex-direction: column;
+            /* flex-flow: row wrap; */
+            /* justify-content: center; */
+            justify-content: space-around;
+        }
+        #topheader{
+            display: flex;
+            justify-content: space-between;
+        }
+        #logo{
+            height: 95px;
+            width: 250px;
+            padding: 2px 5px 0px 2px;
+            /* border: 2px solid black; */
+        }
+        #logo img{
+            height: 85px;
+            width: 250px;
+        }
+        #nav{
+            margin: 5px;
+            height: 75px;
+            width: 600px;
+            padding: 5px;
+            background-color: rgb(62, 62, 139);
+            /* border: 2px solid black; */
+            display: flex;
+            /* flex-flow: row wrap; */
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        a:hover{
+            color: darkgrey;
+        }
+        #image{
+            margin: 25px 15px ;
+            padding: 0px 40px;
+            height: 450px;
+            width: 1100px;
+            /* border: 2px solid black; */   
+        }
+        #image img{
+            height: 450px;
+            width: 1100px;
+        }
+        #desc{
+            height: 200px;
+            width: 99%;
+            /* border: 2px solid black; */
+        }
+        #courses{
+            margin: 2px 0px;
+            padding: 30px 0px;
+            height: 350px;
+            width: 99%;
+            /* border: 2px solid black; */
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .course{
+            height:320px ;
+            width: 260px;
+            /* border: 2px solid black; */
+            text-align: center;
+        }
+        .course img{
+            height: 240px;
+            width: 250px;
+        }
+    .course a{
+        text-decoration: none;
+        color: black;
+    }
+    .course a:hover{
+        color: grey;
+    }
+    footer{
+        margin:auto;
+        height: 250px;
+        width: 99%;
+        /* border: 2px solid black; */
+        display:flex;
+        flex-direction: column;
+    }
+    .contact{
+        height: 150px;
+        width: 99%;
+        background-color: rgb(62, 62, 139);
+        /* border: 2px solid black; */
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 18px;
+
+    }
+    .contact_col{
+        padding: 10px;
+        height: 150px;
+        width: 33% ;
+        text-align: center;
+    }
+    .copyright{
+        height: 100px;
+        background-color: rgb(56, 54, 54);
+        width: 99%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0px 0px 10px 0px;
+    }
+    .rightstatement{
+        padding: 10px;
+        text-align: center;
+    }
+    .icons{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        font-size: 40px;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="topheader">
+
+            <div id="logo">
+                <img src="/images/logo.png" alt="Code_karo() ;">
+            </div>
+            <div id="nav">
+                <div>
+                    <a href="#">Home</a>
+                </div>
+                <div>
+                    <a href="#">Courses</a>
+                </div>
+                <div>
+                    <a href="#">Career</a>
+                </div>
+                <div>
+                    <a href="#">About Us</a>
+                </div>
+                <div>
+                    <a href="#">Contact Us</a>
+                </div>
+                
+            </div>
+        </div>
+        <div id="image">
+            <img src="/images/Main_image.jpg" alt="">
+        </div>
+    </header>
+    <hr>
+    <section id="desc">
+        <div>
+            <p>
+                Here i will add description of my website.
+            </p>
+           <p>
+
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nulla blanditiis impedit pariatur minima quis repellendus velit nam laboriosam et.
+               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error maiores, aut animi optio veritatis labore assumenda eligendi aperiam repellendus quia quo laborum quidem numquam dicta.
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident commodi, reiciendis tempore perferendis unde laborum voluptatibus beatae, illum sit asperiores voluptas in natus! Autem fugiat sequi obcaecati, et dicta numquam? Cum eligendi rem voluptates corrupti ducimus explicabo repudiandae quaerat sapiente doloremque aspernatur voluptate numquam, aperiam porro ex provident praesentium minus eveniet commodi exercitationem similique velit officiis? Magnam aspernatur ea dolore suscipit sequi culpa, voluptatem necessitatibus, optio provident ipsam animi. Alias autem veritatis molestias nam rerum magnam sequi consectetur? Quia, cum fugit ab libero id ratione explicabo optio. Dolore reiciendis pariatur quisquam cumque enim nulla et soluta. Reiciendis voluptate quis dolor.
+               
+            </p>
+        </div>
+    </section>
+    <hr>
+    <section id="courses">
+        <div class="course">
+            <h3><a href="#">C++ with DS & Algo</a></h3>
+            <img src="/images/DS.png" alt="">
+        </div>
+        <div class="course">
+            <h3><a href="#">Full Stack Developer</a></h3>
+            <img src="/images/FS.jpg" alt="">
+        </div>
+        <div class="course">
+            <h3><a href="#">Machine Learning with Python</a></h3>
+            <img src="/images/ML.jpg" alt="">
+        </div>
+        <div class="course">
+            <h3><a href="#">Data Science using Python</a></h3>
+            <img src="/images/DSP.png" alt="">
+        </div>
+    </section>
+    <footer>
+        <div class="contact">
+            <div class="contact_col">
+                <span class="fa fa-map-marker" style="font-size: 35px;">
+                </span>
+                <br>
+                <span><br> Hostel 6 <br> BIT Mesra</span>
+            </div>
+            <div class="contact_col">
+                <span class="fa fa-phone" style="font-size: 35px;">
+                </span>
+                <span> <br>
+                    <br> 7865432967<br>9437474371</span>
+            </div>
+            <div class="contact_col">
+                <span class="fa fa-envelope" style="font-size: 35px;">
+                </span>
+                <br>
+                <span>
+                    <br>
+                code_karo@codekaro.com
+                </span>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="rightstatement">
+                <span style="color: white;">©  All rights reserved | CODE_karo( ) ;</span>
+            </div>
+            <div class="icons">
+                <div >
+                    <a href="#" class="fa fa-facebook"></a>
+                </div>
+                <div>
+                    <a href="#" class="fa fa-instagram"></a>
+                </div>
+                <div>
+                    <a href="#" class="fa fa-youtube"></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    </body>
+    </html>
